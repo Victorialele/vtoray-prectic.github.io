@@ -1,0 +1,70 @@
+.text1{
+    font-weight: 100;
+    font-size: 3vw;
+    text-align: center;
+    margin-left: 42%;
+    margin-top: 20%;
+}
+.container4{
+    margin-top: 9%;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(8, 1ft);
+    grid-template-rows: repeat(6, 5wv);
+    gap: 15px;
+}
+.strelka1{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 2;
+}
+.dvaodin{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+.dvadva{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+.dvatri{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+.dvachetire{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    grid-column-start: 5;
+    grid-column-end: 6;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+.strelka2{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    grid-column-start: 6;
+    grid-column-end: 7;
+    grid-row-start: 2;
+    grid-row-end: 2;
+}
+

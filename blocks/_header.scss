@@ -1,0 +1,61 @@
+@font-face {
+    font-family: 'Raleway';
+    src: url(../blocks/Raleway/static/Raleway-ExtraLight.ttf) format("ttf");
+}
+body{
+    font-family: 'Raleway', sans-serif;
+}
+.container1{
+    display: flex;
+}
+.paket{
+    margin-top: 2%;
+    margin-left: 6.5%;
+    width: 2%;
+    height: 3%;
+}
+.dlyakogo{
+    margin-left: 2%;
+    font-weight: 100;
+    font-size: 1vw;
+    margin-top: 2%;
+}
+.women{
+    color: #5ECE7B;
+}
+.nachalo{
+    display: flex;
+}
+.poisk{
+    width: 16%;
+    height: 8%;
+    margin-top: -1%;
+    margin-left: 65%;
+    object-fit: cover;
+}
+.ikonki{
+    display: flex;
+    justify-content: right;
+    margin-top: -0.5%;
+}
+.box{
+    width: 30%;
+    border: none;
+}
+    
+.un{
+    width: 90%;
+    display: block;
+    position: relative;
+    margin-left: 30%;
+}
+.summer{
+    display: grid;
+    justify-content: center;
+    margin-top: 2%;
+}
+.grand{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}

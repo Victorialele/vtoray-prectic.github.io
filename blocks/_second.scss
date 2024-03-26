@@ -1,0 +1,58 @@
+.container2{
+    margin-top: 10%;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(8, 1ft);
+    grid-template-rows: repeat(6, 5wv);
+    gap: 15px;
+    
+}
+.one{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+.one1{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+.two{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    
+}
+.three{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+.container3{
+    display: grid;
+    justify-content: center;
+    margin-top: 10%;
+}
+.seredina{
+    cursor: pointer;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+

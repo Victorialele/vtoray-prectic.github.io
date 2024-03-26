@@ -1,0 +1,95 @@
+.text4{
+    text-align: center;
+    margin-top: 15%;
+    border: 1px solid #43464E;
+    background-color: #43464E;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.tex4{
+    font-weight: 200;
+    font-size: 1vw;
+    color: white;
+    padding-top: 10%;
+}
+.te4{
+    font-weight: 100;
+    font-size: 1vw;
+    color: white;
+    padding-bottom: 0.5%;
+}
+.t4{
+    font-weight: 100;
+    font-size: 1vw;
+    color: white;
+    padding-bottom: 0.5%;
+    padding-top: 1%;
+}
+.e4{
+    font-weight: 100;
+    font-size: 1vw;
+    color: white;
+    padding-bottom: 25%;
+}
+.text5{
+    font-weight: 200;
+    font-size: 1vw;
+    color: white;
+    margin-top: -20%;
+    margin-left: 10%;
+}
+.container6{
+    margin-top: 3%;
+    margin-right: 67%;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(8, 1ft);
+    grid-template-rows: repeat(6, 5wv);
+    gap: 10px;
+}
+.facebook{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+.pinterest{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+.google{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+.twitter{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+.youtube{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    grid-column-start: 5;
+    grid-column-end: 6;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
